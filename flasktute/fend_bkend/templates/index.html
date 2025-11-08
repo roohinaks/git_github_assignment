@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Welcome to signup page</h1>
+        <h2>Flask application</h2>
+    </div>
+
+    <div class="centred">
+
+        <form action="/submit" method="POST">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            <br>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Email address">
+            <br>
+            <label for="password">Password</label>
+            <input type="text" name="passwd" id="passwd" placeholder="Enter password">
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+</body>
+<style>
+    body {
+        background-color: whitesmoke;
+
+    }
+
+    p {
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+    }
+
+    .centred {
+        margin: auto;
+        width: 80%;
+        border: 3px solid rgb(7, 60, 7);
+        padding: 10px;
+    }
+
+    .main {
+        margin: auto;
+        padding: 10px;
+
+
+    }
+</style>
+
+</html>

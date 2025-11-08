@@ -1,0 +1,12 @@
+IAM
+S3bucket
+EC2
+ECS
+ECR
+VPC
+Lambdafunctions
+EKS
+CloudFormation
+Cloudfront
+cloudwatch
+ 

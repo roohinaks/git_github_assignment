@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Welcome to Registration Form</h1>
+    <h2>It is a Flask appication, concept used is microservices</h2>
+
+    <div class="centered">
+        <form action="/submit" method="POST">
+            <br>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your Name">
+            <br> <br>
+            <label for="age">Age</label>
+            <input type="text" name="age" id="age" placeholder="Enter your Age">
+            <br> <br>
+            <label for="password">Password</label>
+            <input type="text" name="passwd" id="passwd" placeholder="Enter password">
+            <br> <br>
+            <input type="submit" value="submit" >
+            <br>
+        </form>
+    </div>
+    
+</body>
+<style>
+    body {
+        background-color: whitesmoke;
+        
+    }
+    p {
+        font-size: 35px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(49, 5, 5);
+        
+    }
+    .centered {
+        margin: auto;
+        width: 80%;
+        height: 25%;
+        border: 5px solid rgb(34, 132, 34);
+       
+
+    }
+</style>
+</html>

@@ -1,0 +1,6 @@
+#it includes all the list of packages that we are using in our python code.
+flask
+pymongo
+dnspython
+python-dotenv
+

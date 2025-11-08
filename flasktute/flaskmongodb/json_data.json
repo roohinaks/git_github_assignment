@@ -1,0 +1,7 @@
+[
+    {"emp_id":"101", "Ename":"Rahul", "Dept":"accounts"},
+    {"emp_id":"103", "Ename":"Anita", "Dept":"sales"},
+    {"emp_id":"104", "Ename":"Roja", "Dept":"accounts"},
+    {"emp_id":"106", "Ename":"Kishore", "Dept":"HR"}
+
+]

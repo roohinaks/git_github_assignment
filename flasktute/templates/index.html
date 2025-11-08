@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp page</title>
+</head>
+<body>
+    <h1>Hi, Welcome to signup page</h1>
+    <p>Today's day is : {{ day_of_week}}</p>
+    <p>Month is : {{ mon}}</p>
+    <p>Year is : {{ yr}}</p>
+    <p>Date is : {{ dt}}</p>
+    <p>Time is : {{ tm}}</p>
+    <h3>Index.html is Inherited using extends keywork in home.html using jinja2 template syntax</h3>
+    <a href="{{ url_for('home') }}">Home</a>
+    <a href="{{ url_for('index') }}">Index</a>
+
+    {% block body %}
+
+    <p>This is a Flask application </p>
+
+    {% endblock %}
+
+</body>
+<style>
+    body {
+        background-color:rgb(152, 156, 146);
+    }
+    p {
+        text-align: center;
+        font-size:30px;
+        font-style: italic;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(53, 24, 24);
+        
+    }
+</style>
+</html>
