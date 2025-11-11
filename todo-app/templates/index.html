@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO FORM</title>
+</head>
+<body>
+    <h2>TO-DO FORM</h2>
+    <form action="/submittodoitem" method="POST" >
+        <label>Item Name:</label><br>
+        <input type="text" name="itemname" id="itemname"><br><br>
+        <label>Item Description:</label><br>
+        <input type="text" name="description" id="description"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    {% if message %}
+       <h2>{{ message }}</h2>
+    {% endif %}   
+    
+</body>
+</html>
